@@ -1,5 +1,7 @@
 <script >
 import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+
 
 
 
@@ -10,15 +12,18 @@ export default {
   },
   components:{
     AppHeader,
+    AppMain
   
   }
 }
 </script>
 
 <template>
+  <p>AppVue</p>
+
   <AppHeader/>
-<h1>app</h1>
-<p>ciao</p>
+  <AppMain/>
+
 
 </template>
 <style lang="scss">

@@ -14,8 +14,9 @@ export default {
 </script>
 
 <template>
-<input type="text">
-<button>cerca</button>
+<h1>
+  AppMain
+</h1>
 
 </template>
 <style lang="scss">
